@@ -7,3 +7,6 @@ COPY condarc /opt/conda/.condarc
 RUN conda install rpy2
 
 RUN pip install daft
+
+RUN conda update matplotlib
+
